@@ -469,6 +469,11 @@ benefits-item {
     margin-bottom: 16px;
 }
 
+.icon-link {
+    width: 40px;
+    height: 40px;
+}
+
 .icon-link-footer {
     display: flex;
     justify-content: center;
