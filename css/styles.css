@@ -112,7 +112,6 @@ a {
 .navigation-style:focus,
 .navigation-style:hover {
     color: #404bbf;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation-style.active {
@@ -237,7 +236,7 @@ a {
     gap: 24px;
 }
 
-benefits-item {
+.benefits-item {
     width: calc((100% - 72px) / 4);
 }
 
@@ -306,8 +305,8 @@ benefits-item {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-box .icon-link:hover,
-.icon-box .icon-link:focus {
+.icon-link:hover,
+.icon-link:focus {
     background-color: #404BBF;
 }
 
@@ -516,8 +515,8 @@ benefits-item {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-box-footer .icon-link-footer:hover,
-.icon-box-footer .icon-link-footer:focus {
+.icon-link-footer:hover,
+.icon-link-footer:focus {
     background-color: #31d0aa;
 }
 
